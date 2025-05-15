@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Simple Modal Popup Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Button to open the modal -->
+    <button class="button" id="openModalBtn">Open Modal</button>
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <button class="close-button" id="closeModalBtn">&times;</button>
+            <h2 class="modal-title">Modal Title</h2>
+            <div class="modal-body">
+                <p>This is a simple modal popup created using HTML, CSS, and JavaScript.</p>
+                <p>You can close it by clicking the X in the corner, clicking outside the modal, or pressing the ESC
+                    key.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="button" id="confirmBtn">Confirm</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
